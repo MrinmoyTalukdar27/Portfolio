@@ -1,4 +1,5 @@
 import json
+import base64
 from pathlib import Path
 
 import streamlit as st
@@ -77,10 +78,17 @@ def load_projects():
     data_path = Path(__file__).parent / "data" / "projects.json"
     return json.loads(data_path.read_text())
 
+def load_resume_data_uri(path: str):
+    resume_path = Path(__file__).parent / path
+    if not resume_path.exists():
+        return None
+    b64 = base64.b64encode(resume_path.read_bytes()).decode()
+    return f"data:application/pdf;base64,{b64}"
 
 st.set_page_config(page_title=f"{NAME} — Portfolio", page_icon="◆", layout="wide")
 load_css("style.css")
 projects = load_projects()
+resume_data_uri = load_resume_data_uri(RESUME_PATH)
 
 # ---------------- Nav ----------------
 st.markdown(
@@ -112,7 +120,7 @@ st.markdown(
         <h1>Turning data into<br>decisions.</h1>
         <p class="lead">{BIO}</p>
         <div class="pf-hero-links">
-          <a class="pf-btn pf-btn-secondary" href="{RESUME_PATH}" target="_blank">Download Resume</a>
+          {f'<a class="pf-btn pf-btn-secondary" href="{resume_data_uri}" download="{NAME.replace(" ", "_")}_Resume.pdf">Download Resume</a>' if resume_data_uri else ''}
           <a class="pf-btn pf-btn-secondary" href="{GITHUB_URL}" target="_blank">GitHub</a>
           <a class="pf-btn pf-btn-secondary" href="{LINKEDIN_URL}" target="_blank">LinkedIn</a>
           <a class="pf-btn pf-btn-secondary" href="{MEDIUM_URL}" target="_blank">Medium</a>
