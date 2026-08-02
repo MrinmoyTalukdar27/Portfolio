@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Fraud Detection System",
+    "description": "End-to-end ML pipeline on 6.3M+ financial transaction records for real-time fraud detection. Applied StandardScaler/OneHotEncoder preprocessing and class-weight balancing to handle severe class imbalance, then deployed as a live Streamlit app.",
+    "tech": ["Python", "Scikit-learn", "Logistic Regression", "Streamlit"],
+    "metric": "94.63% accuracy · 94% recall",
+    "github": "https://github.com/MrinmoyTalukdar27/Fraud_Detection_System",
+    "demo": ""
+  },
+  {
+    "title": "Telecom Customer Churn Analysis",
+    "description": "EDA on 7,043 customer records to uncover churn drivers such as contract type, tenure, and payment method, with retention recommendations based on the findings.",
+    "tech": ["Python", "Pandas", "Matplotlib", "Seaborn"],
+    "metric": "26.54% churn rate found",
+    "github": "https://github.com/MrinmoyTalukdar27/Telecom_Exploratory_Data_Analysis",
+    "demo": ""
+  },
+  {
+    "title": "Netflix Content Data Analysis",
+    "description": "EDA on 9,827 movies with feature engineering (genre expansion, vote categorization) to surface content trends and audience preference patterns.",
+    "tech": ["Python", "Pandas", "Matplotlib", "Seaborn"],
+    "metric": "",
+    "github": "https://github.com/MrinmoyTalukdar27/EDA_On_Netflix",
+    "demo": ""
+  }
+]
