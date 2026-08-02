@@ -41,7 +41,7 @@ EXPERIENCE = [
         "title": "Data Science Intern — AI/ML Summer Intern",
         "company": "XopunTech (India) Pvt. Ltd.",
         "type": "Internship",
-        "duration": "July 2026 – Aug 2026",
+        "duration": "July 2026-Aug 2026",
         "tech": ["Python", "NumPy","Pandas","Matplotlib", "Seaborn","Scikit-learn","Sentence Transformers", "KNN", "Streamlit"],
         "github": "https://github.com/MrinmoyTalukdar27/xopuntech_Internship",
         "points": [
