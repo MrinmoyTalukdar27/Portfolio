@@ -117,7 +117,8 @@ st.markdown(
       <div class="pf-hero-card">
         <div class="pf-status-tag"><span class="pf-status-dot"></span>{STATUS_TAG}</div>
         <div class="pf-eyebrow">{ROLE_LINE}</div>
-        <h1>Turning data into<br>decisions.</h1>
+        <h1>MRINMOY TALUKDAR.</h1
+        <h2>Turning data into<br>decisions.</h2>
         <p class="lead">{BIO}</p>
         <div class="pf-hero-links">
           {f'<a class="pf-btn pf-btn-secondary" href="{resume_data_uri}" download="{NAME.replace(" ", "_")}_Resume.pdf">Download Resume</a>' if resume_data_uri else ''}
