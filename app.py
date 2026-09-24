@@ -90,7 +90,7 @@ load_css("style.css")
 projects = load_projects()
 resume_data_uri = load_resume_data_uri(RESUME_PATH)
 
-# ---------------- Nav ----------------
+# ---------------- Navigation ----------------
 st.markdown(
     f"""
     <div class="pf-nav">
