@@ -34,7 +34,7 @@ EDUCATION = [
 SKILLS = [
     "Python", "SQL","Machine learning ","Deep Learning", "Pandas", "NumPy", "Scikit-learn",
     "Matplotlib", "Seaborn", "Sentence Transformers", "NLP", "KNN",
-    "Streamlit", "Git", "GitHub", "Jupyter Notebook", "HTML/CSS",
+    "Streamlit", "Git", "GitHub", "Excel","Jupyter Notebook", "HTML/CSS",
 ]
 
 EXPERIENCE = [
