@@ -1,4 +1,4 @@
-# Mrinmoy Talukder — Data Scientist Portfolio
+#Mrinmoy Talukder — Data Scientist Portfolio
 
 A minimal, single-page data science portfolio built entirely with Streamlit and custom CSS.
 
