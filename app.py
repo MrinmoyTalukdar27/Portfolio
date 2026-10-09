@@ -133,7 +133,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# ---------------- About ----------------
+# ----------------- About ----------------
 timeline_html = "".join(
     f"""
     <div class="pf-timeline-item">
