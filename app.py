@@ -110,7 +110,7 @@ st.markdown(
 
 st.markdown('<div class="pf-wrap">', unsafe_allow_html=True)
 
-# ---------------- Hero ----------------
+# -----------------Hero ----------------
 st.markdown(
     f"""
     <div id="home" class="pf-hero">
